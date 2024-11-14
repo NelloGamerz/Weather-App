@@ -181,7 +181,7 @@ export default function ModernWeatherDashboard() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Weather Dashboard
+          SkyCast
         </motion.h1>
         <div className="bg-white bg-opacity-10 backdrop-blur-md rounded-3xl p-4 sm:p-6 md:p-8 shadow-2xl">
           <form onSubmit={handleSearch} className="mb-6 sm:mb-8">
